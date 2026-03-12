@@ -7,11 +7,11 @@ const DISCORD_INVITE = "https://discord.gg/your-invite-here";
 const API = "/.netlify/functions/members";
 
 // ── constants ─────────────────────────────────────────────────────────────────
-const CELLS     = ["Alpha","Bravo","Charlie","Delta","Echo","Foxtrot","Golf","Hotel"];
-const CELL_IDS  = ["A","B","C","D","E","F","G","H"];
-const FIRETEAMS = ["Anvil","Bear","Cobra","Dagger","Eagle","Falcon","Ghost","Hawk"];
-const FT_IDS    = ["AN","BR","CO","DG","EG","FK","GH","HK"];
-const RANKS     = ["Recruit","Operative","Specialist","Senior Specialist","Sergeant","Lieutenant","Commander","General"];
+const CELLS     = ["Alterra"];
+const CELL_IDS  = ["A"];
+const FIRETEAMS = ["Alpha", "Bravo", "Charlie", "Archeons"];
+const FT_IDS    = ["AL", "BO", "CH", "AN"];
+const RANKS     = ["Recruit","Operative", "Deputy Commander", "General Operations Commander"];
 const STATUSES  = ["Active","Inactive","Suspended","Removed"];
 
 // ── API helpers ───────────────────────────────────────────────────────────────
