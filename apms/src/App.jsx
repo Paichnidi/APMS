@@ -3,7 +3,7 @@ import { useState, useMemo, useEffect, useCallback } from "react";
 // ── auth config ───────────────────────────────────────────────────────────────
 const ADMIN_USER    = "alterra";
 const ADMIN_PASS    = "apms2025";
-const DISCORD_INVITE = "https://discord.gg/your-invite-here";
+const DISCORD_INVITE = "https://discord.gg/hJVbpZ9quK";
 const API = "/.netlify/functions/members";
 
 // ── constants ─────────────────────────────────────────────────────────────────
