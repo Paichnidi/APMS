@@ -5,8 +5,8 @@ const supabase = createClient(
   process.env.SUPABASE_SERVICE_KEY
 );
 
-const CELL_IDS = ["A","B","C","D","E","F","G","H"];
-const FT_IDS   = ["AN","BR","CO","DG","EG","FK","GH","HK"];
+const CELL_IDS = ["A"];
+const FT_IDS   = ["TR","AL", "BO", "CH", "AR"];
 
 function generateID(num, cellIdx, ftIdx) {
   return `${String(num).padStart(3,"0")}${CELL_IDS[cellIdx] ?? "X"}${FT_IDS[ftIdx] ?? "XX"}`;

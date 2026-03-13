@@ -9,8 +9,8 @@ const API = "/.netlify/functions/members";
 // ── constants ─────────────────────────────────────────────────────────────────
 const CELLS     = ["Alterra"];
 const CELL_IDS  = ["A"];
-const FIRETEAMS = ["Alpha", "Bravo", "Charlie", "Archeons"];
-const FT_IDS    = ["AL", "BO", "CH", "AN"];
+const FIRETEAMS = ["Training","Alpha", "Bravo", "Charlie", "Archeons"];
+const FT_IDS    = ["TR","AL", "BO", "CH", "AR"];
 const RANKS     = ["Recruit","Operative", "Deputy Commander", "General Operations Commander"];
 const STATUSES  = ["Active","Inactive","Suspended","Removed"];
 
