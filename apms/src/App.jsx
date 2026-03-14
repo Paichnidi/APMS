@@ -196,7 +196,7 @@ function LandingPage({ onLoginClick }) {
       <div style={{position:"absolute",top:"30%",left:"50%",transform:"translate(-50%,-50%)",width:600,height:600,background:"radial-gradient(circle,#e8c96d0a 0%,transparent 70%)",pointerEvents:"none"}}/>
       <div style={{position:"relative",textAlign:"center",maxWidth:560}}>
         <div style={{width:72,height:72,borderRadius:16,display:"flex",alignItems:"center",justifyContent:"center",margin:"0 auto 1.5rem"}}>
-        <img src="/alterra_d.png" alt="Alterra Logo" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
+        <img src="/planet.png" alt="Alterra Logo" style={{width:"100%",height:"100%",objectFit:"contain"}}/>
         </div>   
         <div style={{fontFamily:"'Courier New',monospace",fontSize:".8rem",letterSpacing:6,color:"#e8c96d",textTransform:"uppercase",marginBottom:"0.5rem"}}>Welcome to</div>
         <h1 style={{fontSize:"clamp(2.2rem,6vw,3.5rem)",fontWeight:900,color:"#e2e8f0",margin:"0 0 0.5rem",letterSpacing:-1,lineHeight:1.1}}>ALTERRA</h1>
