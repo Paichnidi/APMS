@@ -195,7 +195,13 @@ function LandingPage({ onLoginClick }) {
       <div style={{position:"absolute",inset:0,backgroundImage:"linear-gradient(#1a1d2a22 1px,transparent 1px),linear-gradient(90deg,#1a1d2a22 1px,transparent 1px)",backgroundSize:"40px 40px",pointerEvents:"none"}}/>
       <div style={{position:"absolute",top:"30%",left:"50%",transform:"translate(-50%,-50%)",width:600,height:600,background:"radial-gradient(circle,#e8c96d0a 0%,transparent 70%)",pointerEvents:"none"}}/>
       <div style={{position:"relative",textAlign:"center",maxWidth:560}}>
-        <div style={{width:72,height:72,borderRadius:16,background:"linear-gradient(135deg,#e8c96d,#b8952d)",display:"flex",alignItems:"center",justifyContent:"center",fontWeight:900,fontSize:"2rem",color:"#0a0c10",fontFamily:"monospace",margin:"0 auto 1.5rem"}}>A</div>
+        <div style={{width:72,height:72,borderRadius:16,background:"linear-gradient(135deg,#e8c96d,#b8952d)",display:"flex",alignItems:"center",justifyContent:"center",margin:"0 auto 1.5rem",overflow:"hidden"}}>
+          <img 
+            src="/alterra_d.png"
+            alt="Alterra Logo"
+            style={{width:"100%",height:"100%",objectFit:"contain"}}
+          />
+        </div>        
         <div style={{fontFamily:"'Courier New',monospace",fontSize:".8rem",letterSpacing:6,color:"#e8c96d",textTransform:"uppercase",marginBottom:"0.5rem"}}>Welcome to</div>
         <h1 style={{fontSize:"clamp(2.2rem,6vw,3.5rem)",fontWeight:900,color:"#e2e8f0",margin:"0 0 0.5rem",letterSpacing:-1,lineHeight:1.1}}>ALTERRA</h1>
         <p style={{color:"#555",fontFamily:"monospace",letterSpacing:3,fontSize:".75rem",textTransform:"uppercase",marginBottom:"2rem"}}>Personnel Management System</p>
