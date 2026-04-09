@@ -224,7 +224,7 @@ function LandingPage({ onLoginClick }) {
       <div style={{ position:"absolute", inset:0, backgroundImage:"linear-gradient(#1a1d2a22 1px,transparent 1px),linear-gradient(90deg,#1a1d2a22 1px,transparent 1px)", backgroundSize:"40px 40px", pointerEvents:"none" }}/>
       <div style={{ position:"absolute", top:"30%", left:"50%", transform:"translate(-50%,-50%)", width:600, height:600, background:"radial-gradient(circle,#e8c96d0a 0%,transparent 70%)", pointerEvents:"none" }}/>
       <div style={{ position:"relative", textAlign:"center", width:"100%", maxWidth:480 }}>
-      <div style={{width:90,height:90,borderRadius:16,display:"flex",alignItems:"center",justifyContent:"center",margin:"0 auto 1.5rem"}}>
+      <div style={{width:150,height:150,borderRadius:16,display:"flex",alignItems:"center",justifyContent:"center",margin:"0 auto 1.5rem"}}>
         <img src="/planet-rmbg.png" alt="Alterra Logo" style={{width:"100%",height:"100%",objectFit:"contain"}}/> </div>          <div style={{ fontFamily:"'Courier New',monospace", fontSize:".75rem", letterSpacing:6, color:"#e8c96d", textTransform:"uppercase", marginBottom:"0.5rem" }}>Welcome to</div>
         <h1 style={{ fontSize:"clamp(2rem,10vw,3.5rem)", fontWeight:900, color:"#e2e8f0", margin:"0 0 0.5rem", letterSpacing:-1, lineHeight:1.1 }}>ALTERRA</h1>
         <p style={{ color:"#555", fontFamily:"monospace", letterSpacing:3, fontSize:".7rem", textTransform:"uppercase", marginBottom:"1.5rem" }}>Personnel Management System</p>
